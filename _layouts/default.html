@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ "/resources/css/main.css" | prepend: site.baseurl }}">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
+                    <a href="/projects">Projects</a>
+                </li>
+                <li>
+                    <a href="/missing">Broken</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+          {{ content }}
+        </div>
+        <footer>
+            <ul>
+                <!--<li>
+                    <a href="mailto:mygmail">email</a>
+                </li>-->
+                <li>
+                    <a href="https://github.com/nparshook">github.com/nparshook</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
