@@ -59,8 +59,6 @@ nav ul li, footer ul li {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
     border-top: 1px solid #bababa;
     font-size: .8em;
 }
